@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD361D931BEB43E00043B4E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD361D921BEB43E00043B4E1 /* main.m */; };
+		DD361D961BEB43E00043B4E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD361D951BEB43E00043B4E1 /* AppDelegate.m */; };
+		DD361D991BEB43E00043B4E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD361D981BEB43E00043B4E1 /* ViewController.m */; };
+		DD361D9C1BEB43E00043B4E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD361D9A1BEB43E00043B4E1 /* Main.storyboard */; };
+		DD361D9E1BEB43E00043B4E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD361D9D1BEB43E00043B4E1 /* Assets.xcassets */; };
+		DD361DA11BEB43E00043B4E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD361D9F1BEB43E00043B4E1 /* LaunchScreen.storyboard */; };
+		DD361DAC1BEB43E00043B4E1 /* CALayout______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD361DAB1BEB43E00043B4E1 /* CALayout______Tests.m */; };
+		DD361DB71BEB43E00043B4E1 /* CALayout______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD361DB61BEB43E00043B4E1 /* CALayout______UITests.m */; };
+		DD361DC51BEB44190043B4E1 /* xueai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD361DC41BEB44190043B4E1 /* xueai.jpg */; settings = {ASSET_TAGS = (); }; };
+		DD361DC71BEB5C440043B4E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD361DC61BEB5C440043B4E1 /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
+		DD361DC91BEB606A0043B4E1 /* zuozhu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD361DC81BEB606A0043B4E1 /* zuozhu.jpg */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD361DA81BEB43E00043B4E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD361D861BEB43DF0043B4E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD361D8D1BEB43DF0043B4E1;
+			remoteInfo = "CALayout实现折叠动画";
+		};
+		DD361DB31BEB43E00043B4E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD361D861BEB43DF0043B4E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD361D8D1BEB43DF0043B4E1;
+			remoteInfo = "CALayout实现折叠动画";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD361D8E1BEB43DF0043B4E1 /* CALayer实现折叠动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CALayer实现折叠动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD361D921BEB43E00043B4E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD361D941BEB43E00043B4E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD361D951BEB43E00043B4E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD361D971BEB43E00043B4E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD361D981BEB43E00043B4E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD361D9B1BEB43E00043B4E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD361D9D1BEB43E00043B4E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD361DA01BEB43E00043B4E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD361DA21BEB43E00043B4E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD361DA71BEB43E00043B4E1 /* CALayer实现折叠动画.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CALayer实现折叠动画.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD361DAB1BEB43E00043B4E1 /* CALayout______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayout______Tests.m"; sourceTree = "<group>"; };
+		DD361DAD1BEB43E00043B4E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD361DB21BEB43E00043B4E1 /* CALayer实现折叠动画.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CALayer实现折叠动画.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD361DB61BEB43E00043B4E1 /* CALayout______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayout______UITests.m"; sourceTree = "<group>"; };
+		DD361DB81BEB43E00043B4E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD361DC41BEB44190043B4E1 /* xueai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xueai.jpg; sourceTree = "<group>"; };
+		DD361DC61BEB5C440043B4E1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DD361DC81BEB606A0043B4E1 /* zuozhu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zuozhu.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD361D8B1BEB43DF0043B4E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD361DA41BEB43E00043B4E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD361DAF1BEB43E00043B4E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD361D851BEB43DF0043B4E1 = {
+			isa = PBXGroup;
+			children = (
+				DD361DC81BEB606A0043B4E1 /* zuozhu.jpg */,
+				DD361DC41BEB44190043B4E1 /* xueai.jpg */,
+				DD361D901BEB43E00043B4E1 /* CALayout实现折叠动画 */,
+				DD361DAA1BEB43E00043B4E1 /* CALayout实现折叠动画Tests */,
+				DD361DB51BEB43E00043B4E1 /* CALayout实现折叠动画UITests */,
+				DD361D8F1BEB43DF0043B4E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD361D8F1BEB43DF0043B4E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD361D8E1BEB43DF0043B4E1 /* CALayer实现折叠动画.app */,
+				DD361DA71BEB43E00043B4E1 /* CALayer实现折叠动画.xctest */,
+				DD361DB21BEB43E00043B4E1 /* CALayer实现折叠动画.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD361D901BEB43E00043B4E1 /* CALayout实现折叠动画 */ = {
+			isa = PBXGroup;
+			children = (
+				DD361D941BEB43E00043B4E1 /* AppDelegate.h */,
+				DD361D951BEB43E00043B4E1 /* AppDelegate.m */,
+				DD361D971BEB43E00043B4E1 /* ViewController.h */,
+				DD361D981BEB43E00043B4E1 /* ViewController.m */,
+				DD361D9A1BEB43E00043B4E1 /* Main.storyboard */,
+				DD361D9D1BEB43E00043B4E1 /* Assets.xcassets */,
+				DD361D9F1BEB43E00043B4E1 /* LaunchScreen.storyboard */,
+				DD361DA21BEB43E00043B4E1 /* Info.plist */,
+				DD361DC61BEB5C440043B4E1 /* Images.xcassets */,
+				DD361D911BEB43E00043B4E1 /* Supporting Files */,
+			);
+			path = "CALayout实现折叠动画";
+			sourceTree = "<group>";
+		};
+		DD361D911BEB43E00043B4E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD361D921BEB43E00043B4E1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD361DAA1BEB43E00043B4E1 /* CALayout实现折叠动画Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DD361DAB1BEB43E00043B4E1 /* CALayout______Tests.m */,
+				DD361DAD1BEB43E00043B4E1 /* Info.plist */,
+			);
+			path = "CALayout实现折叠动画Tests";
+			sourceTree = "<group>";
+		};
+		DD361DB51BEB43E00043B4E1 /* CALayout实现折叠动画UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD361DB61BEB43E00043B4E1 /* CALayout______UITests.m */,
+				DD361DB81BEB43E00043B4E1 /* Info.plist */,
+			);
+			path = "CALayout实现折叠动画UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD361D8D1BEB43DF0043B4E1 /* CALayer实现折叠动画 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD361DBB1BEB43E00043B4E1 /* Build configuration list for PBXNativeTarget "CALayer实现折叠动画" */;
+			buildPhases = (
+				DD361D8A1BEB43DF0043B4E1 /* Sources */,
+				DD361D8B1BEB43DF0043B4E1 /* Frameworks */,
+				DD361D8C1BEB43DF0043B4E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CALayer实现折叠动画";
+			productName = "CALayout实现折叠动画";
+			productReference = DD361D8E1BEB43DF0043B4E1 /* CALayer实现折叠动画.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD361DA61BEB43E00043B4E1 /* CALayer实现折叠动画Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD361DBE1BEB43E00043B4E1 /* Build configuration list for PBXNativeTarget "CALayer实现折叠动画Tests" */;
+			buildPhases = (
+				DD361DA31BEB43E00043B4E1 /* Sources */,
+				DD361DA41BEB43E00043B4E1 /* Frameworks */,
+				DD361DA51BEB43E00043B4E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD361DA91BEB43E00043B4E1 /* PBXTargetDependency */,
+			);
+			name = "CALayer实现折叠动画Tests";
+			productName = "CALayout实现折叠动画Tests";
+			productReference = DD361DA71BEB43E00043B4E1 /* CALayer实现折叠动画.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD361DB11BEB43E00043B4E1 /* CALayer实现折叠动画UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD361DC11BEB43E00043B4E1 /* Build configuration list for PBXNativeTarget "CALayer实现折叠动画UITests" */;
+			buildPhases = (
+				DD361DAE1BEB43E00043B4E1 /* Sources */,
+				DD361DAF1BEB43E00043B4E1 /* Frameworks */,
+				DD361DB01BEB43E00043B4E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD361DB41BEB43E00043B4E1 /* PBXTargetDependency */,
+			);
+			name = "CALayer实现折叠动画UITests";
+			productName = "CALayout实现折叠动画UITests";
+			productReference = DD361DB21BEB43E00043B4E1 /* CALayer实现折叠动画.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD361D861BEB43DF0043B4E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = chenxi;
+				TargetAttributes = {
+					DD361D8D1BEB43DF0043B4E1 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					DD361DA61BEB43E00043B4E1 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DD361D8D1BEB43DF0043B4E1;
+					};
+					DD361DB11BEB43E00043B4E1 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DD361D8D1BEB43DF0043B4E1;
+					};
+				};
+			};
+			buildConfigurationList = DD361D891BEB43DF0043B4E1 /* Build configuration list for PBXProject "CALayer实现折叠动画" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD361D851BEB43DF0043B4E1;
+			productRefGroup = DD361D8F1BEB43DF0043B4E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD361D8D1BEB43DF0043B4E1 /* CALayer实现折叠动画 */,
+				DD361DA61BEB43E00043B4E1 /* CALayer实现折叠动画Tests */,
+				DD361DB11BEB43E00043B4E1 /* CALayer实现折叠动画UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD361D8C1BEB43DF0043B4E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD361DC51BEB44190043B4E1 /* xueai.jpg in Resources */,
+				DD361DC71BEB5C440043B4E1 /* Images.xcassets in Resources */,
+				DD361DA11BEB43E00043B4E1 /* LaunchScreen.storyboard in Resources */,
+				DD361DC91BEB606A0043B4E1 /* zuozhu.jpg in Resources */,
+				DD361D9E1BEB43E00043B4E1 /* Assets.xcassets in Resources */,
+				DD361D9C1BEB43E00043B4E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD361DA51BEB43E00043B4E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD361DB01BEB43E00043B4E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD361D8A1BEB43DF0043B4E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD361D991BEB43E00043B4E1 /* ViewController.m in Sources */,
+				DD361D961BEB43E00043B4E1 /* AppDelegate.m in Sources */,
+				DD361D931BEB43E00043B4E1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD361DA31BEB43E00043B4E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD361DAC1BEB43E00043B4E1 /* CALayout______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD361DAE1BEB43E00043B4E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD361DB71BEB43E00043B4E1 /* CALayout______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD361DA91BEB43E00043B4E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD361D8D1BEB43DF0043B4E1 /* CALayer实现折叠动画 */;
+			targetProxy = DD361DA81BEB43E00043B4E1 /* PBXContainerItemProxy */;
+		};
+		DD361DB41BEB43E00043B4E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD361D8D1BEB43DF0043B4E1 /* CALayer实现折叠动画 */;
+			targetProxy = DD361DB31BEB43E00043B4E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD361D9A1BEB43E00043B4E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD361D9B1BEB43E00043B4E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD361D9F1BEB43E00043B4E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD361DA01BEB43E00043B4E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD361DB91BEB43E00043B4E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD361DBA1BEB43E00043B4E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD361DBC1BEB43E00043B4E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CALayout实现折叠动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zrong.xiaodong.CALayout------";
+				PRODUCT_NAME = "CALayer实现折叠动画";
+			};
+			name = Debug;
+		};
+		DD361DBD1BEB43E00043B4E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CALayout实现折叠动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zrong.xiaodong.CALayout------";
+				PRODUCT_NAME = "CALayer实现折叠动画";
+			};
+			name = Release;
+		};
+		DD361DBF1BEB43E00043B4E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CALayout实现折叠动画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zrong.xiaodong.CALayout------Tests";
+				PRODUCT_NAME = "CALayer实现折叠动画";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CALayer实现折叠动画.app/CALayer实现折叠动画";
+			};
+			name = Debug;
+		};
+		DD361DC01BEB43E00043B4E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CALayout实现折叠动画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zrong.xiaodong.CALayout------Tests";
+				PRODUCT_NAME = "CALayer实现折叠动画";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CALayer实现折叠动画.app/CALayer实现折叠动画";
+			};
+			name = Release;
+		};
+		DD361DC21BEB43E00043B4E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CALayout实现折叠动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zrong.xiaodong.CALayout------UITests";
+				PRODUCT_NAME = "CALayer实现折叠动画";
+				TEST_TARGET_NAME = "CALayout实现折叠动画";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DD361DC31BEB43E00043B4E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CALayout实现折叠动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zrong.xiaodong.CALayout------UITests";
+				PRODUCT_NAME = "CALayer实现折叠动画";
+				TEST_TARGET_NAME = "CALayout实现折叠动画";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD361D891BEB43DF0043B4E1 /* Build configuration list for PBXProject "CALayer实现折叠动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD361DB91BEB43E00043B4E1 /* Debug */,
+				DD361DBA1BEB43E00043B4E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD361DBB1BEB43E00043B4E1 /* Build configuration list for PBXNativeTarget "CALayer实现折叠动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD361DBC1BEB43E00043B4E1 /* Debug */,
+				DD361DBD1BEB43E00043B4E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD361DBE1BEB43E00043B4E1 /* Build configuration list for PBXNativeTarget "CALayer实现折叠动画Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD361DBF1BEB43E00043B4E1 /* Debug */,
+				DD361DC01BEB43E00043B4E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD361DC11BEB43E00043B4E1 /* Build configuration list for PBXNativeTarget "CALayer实现折叠动画UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD361DC21BEB43E00043B4E1 /* Debug */,
+				DD361DC31BEB43E00043B4E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD361D861BEB43DF0043B4E1 /* Project object */;
+}
